@@ -8,27 +8,27 @@
 
 	const exampleMessages = [
 		{
-			heading: 'Explain technical concepts',
-			message: `What is a "serverless function"?`
+			heading: 'Show some proteins that have mutations',
+			message: `Show 10 proteins that have mutations`
 		},
 		{
-			heading: 'Summarize an article',
-			message: 'Summarize the following article for a 2nd grader: \n'
+			heading: 'All proteins having "EGFR" in their uniprot names',
+			message: 'List the proteins that have EGFR in the hasUniprotPrimaryName property'
 		},
 		{
-			heading: 'Draft an email',
-			message: `Draft an email to my boss about the following: \n`
+			heading: 'What are some EGFR\'s mutations?',
+			message: `What are some EGFR\'s mutations?`
 		}
 	];
 </script>
 
 <div class="mx-auto max-w-2xl px-4">
 	<div class="rounded-lg border bg-background p-8">
-		<h1 class="mb-2 text-lg font-semibold">Welcome to SvelteKit AI Chatbot!</h1>
+		<h1 class="mb-2 text-lg font-semibold">Welcome to ProKinO AI Chatbot!</h1>
 		<p class="mb-2 leading-normal text-muted-foreground">
-			This is an open source AI chatbot app template built with
-			<ExternalLink href="https://kit.svelte.dev">SvelteKit</ExternalLink> and
-			<ExternalLink href="https://vercel.com/storage/kv">Vercel KV</ExternalLink>
+			This is an AI chatbot built for 
+			<ExternalLink href="https://prokino.uga.edu">ProKinO</ExternalLink> at
+			the University of Georgia's <ExternalLink href="http://esbg.bmb.uga.edu/">ESBG</ExternalLink>
 			.
 		</p>
 		<p class="leading-normal text-muted-foreground">

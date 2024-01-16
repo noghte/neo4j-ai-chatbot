@@ -10,8 +10,8 @@
 	class={cn('px-2 text-center text-xs leading-normal text-muted-foreground', className)}
 	{...$$restProps}
 >
-	Open source AI chatbot built with
-	<ExternalLink href="https://kit.svelte.dev">SvelteKit</ExternalLink> and
-	<ExternalLink href="https://vercel.com/storage/kv">Vercel KV</ExternalLink>
+	Developed at
+	<ExternalLink href="http://esbg.bmb.uga.edu/">ESBG lab</ExternalLink> at 
+	<ExternalLink href="https://uga.edu">the University of Georgia</ExternalLink>
 	.
 </p>
